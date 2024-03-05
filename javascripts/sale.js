@@ -47,7 +47,7 @@ function calc() {
     }
 
     // Mostramos la alerta con el total y el costo de envío
-    alert(`${mensaje} Total de la orden: ${total}. Envío: ${envioValue}`);
+    alert(`${mensaje} Subtotal de la orden: ${total}. Envío: ${envioValue}\nTotal: ${envioValue + total}`);
 
     // Reiniciamos las compras después de realizar la orden
     compras = [];
